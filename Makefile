@@ -3,6 +3,7 @@ setup:
 
 install:
 	pip install --upgrade pip &&\
+	py -2 -m pip install setuptools_scm
 	pip install -r requirements.txt
 
 test:
