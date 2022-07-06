@@ -3,8 +3,7 @@ setup:
 
 install:
 	pip install --upgrade pip &&\
-	pip install setuptools_scm
-	pip install setuptools-scm
+	pip install --upgrade setuptools_scm &&\
 	pip install -r requirements.txt
 
 test:
