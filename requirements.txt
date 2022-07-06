@@ -7,4 +7,6 @@ nbval
 click
 flask
 requests
+setuptools
+setuptools_scm
 setuptools-scm
